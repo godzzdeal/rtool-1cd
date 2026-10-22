@@ -8,6 +8,14 @@
 </p>
 
 <p align="center">
+  <a href="https://v2.tauri.app/"><img src="https://img.shields.io/badge/Tauri-2-FFC131?style=flat-square&amp;logo=tauri&amp;logoColor=white" alt="Tauri 2"></a>
+  <a href="https://react.dev/"><img src="https://img.shields.io/badge/React-19-61DAFB?style=flat-square&amp;logo=react&amp;logoColor=white" alt="React 19"></a>
+  <a href="https://www.rust-lang.org/"><img src="https://img.shields.io/badge/Rust-000000?style=flat-square&amp;logo=rust&amp;logoColor=white" alt="Rust"></a>
+  <a href="https://tailwindcss.com/"><img src="https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?style=flat-square&amp;logo=tailwindcss&amp;logoColor=white" alt="Tailwind CSS 4"></a>
+  <a href="https://rspack.rs/"><img src="https://img.shields.io/badge/Rspack-2-FBC02D?style=flat-square&amp;logo=rspack&amp;logoColor=white" alt="Rspack 2 через Rsbuild 2"></a>
+</p>
+
+<p align="center">
   <a href="https://github.com/godzzdeal/rtool-1cd/releases/download/1.1.0-beta/rTool.1CD_1.1.0-beta_x64-setup.exe"><strong>Скачать установщик</strong></a>
   &nbsp; | &nbsp;
   <a href="RELEASE-NOTES.md">Описание выпуска</a>
@@ -26,14 +34,6 @@
 - Сохранение всех правок в копию или открытую базу.
 
 Бета-версия предназначена для файлов .1CD формата **8.3.8.0**.
-
-## Стек
-
-- [Tauri 2](https://v2.tauri.app/) — окно приложения, системное меню и диалоги.
-- [React 19](https://react.dev/) и TypeScript — интерфейс таблиц, поиска и редактирования.
-- [Rust](https://www.rust-lang.org/) — чтение формата 1CD, работа с записями и индексами.
-- [Tailwind CSS 4](https://tailwindcss.com/) — оформление, светлая и тёмная темы.
-- [Rspack](https://rspack.rs/) через [Rsbuild 2](https://rsbuild.rs/) — сборка интерфейса.
 
 ## Установка
 

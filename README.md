@@ -4,7 +4,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Windows-x64-0078D4?style=flat-square" alt="Windows x64">
-  <img src="https://img.shields.io/badge/версия-1.1.0--beta-2563EB?style=flat-square" alt="Версия 1.1.0-beta">
+  <img src="https://img.shields.io/badge/версия-1.1.1--beta-2563EB?style=flat-square" alt="Версия 1.1.1-beta">
 </p>
 
 <p align="center">
@@ -16,7 +16,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/godzzdeal/rtool-1cd/releases/download/1.1.0-beta/rTool.1CD_1.1.0-beta_x64-setup.exe"><strong>Скачать установщик</strong></a>
+  <a href="https://github.com/godzzdeal/rtool-1cd/releases/download/1.1.1-beta/rTool.1CD_1.1.1-beta_x64-setup.exe"><strong>Скачать установщик</strong></a>
   &nbsp; | &nbsp;
   <a href="RELEASE-NOTES.md">Описание выпуска</a>
   &nbsp; | &nbsp;
@@ -73,6 +73,13 @@
 
 </details>
 
+<details>
+<summary>Связи таблиц</summary>
+
+![ER-схема связей таблицы](assets/screenshots/09-relations.png)
+
+</details>
+
 ## Установка
 
 Скачайте установщик для Windows x64 и запустите его. Приложение устанавливается для текущего пользователя.
@@ -82,7 +89,7 @@
 - [Visual C++ 2010 SP1 x64](https://www.microsoft.com/en-us/download/details.aspx?id=26999) — выберите **vcredist_x64.exe**.
 - [WebView2 Runtime](https://developer.microsoft.com/en-us/microsoft-edge/webview2/#download-section) — выберите **Evergreen Standalone Installer, x64**.
 
-Установщик не подписан. [Скачать SHA-256](https://github.com/godzzdeal/rtool-1cd/releases/download/1.1.0-beta/rTool.1CD_1.1.0-beta_x64-setup.exe.sha256).
+Установщик не подписан. [Скачать SHA-256](https://github.com/godzzdeal/rtool-1cd/releases/download/1.1.1-beta/rTool.1CD_1.1.1-beta_x64-setup.exe.sha256).
 
 > [!IMPORTANT]
 > Перед редактированием закройте базу в 1С и сделайте резервную копию. Редактируйте тестовую копию базы.

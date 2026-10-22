@@ -35,6 +35,44 @@
 
 Бета-версия предназначена для файлов .1CD формата **8.3.8.0**.
 
+## Скриншоты
+
+![Просмотр записей справочника](assets/screenshots/06-records.png)
+
+<details>
+<summary>Обзор базы</summary>
+
+![Обзор базы](assets/screenshots/01-overview.png)
+
+</details>
+
+<details>
+<summary>Каталог таблиц и отбор</summary>
+
+![Каталог таблиц](assets/screenshots/02-tables.png)
+
+![Группы таблиц](assets/screenshots/03-table-groups.png)
+
+</details>
+
+<details>
+<summary>Представление полей и индексы</summary>
+
+![Настройка представления полей](assets/screenshots/04-field-display.png)
+
+![Иерархия индексов](assets/screenshots/05-indexes.png)
+
+</details>
+
+<details>
+<summary>Редактирование записей</summary>
+
+![Режим редактирования](assets/screenshots/07-editing.png)
+
+![Редактор значения поля](assets/screenshots/08-cell-editor.png)
+
+</details>
+
 ## Установка
 
 Скачайте установщик для Windows x64 и запустите его. Приложение устанавливается для текущего пользователя.

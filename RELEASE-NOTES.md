@@ -1,4 +1,4 @@
-# rTool 1CD 1.1.0-beta
+# rTool 1CD 1.1.1-beta
 
 **Бета-версия для Windows x64**
 
@@ -6,15 +6,14 @@
 
 ## Скачать
 
-- **[Установщик Windows x64](https://github.com/godzzdeal/rtool-1cd/releases/download/1.1.0-beta/rTool.1CD_1.1.0-beta_x64-setup.exe)**.
-- [Контрольная сумма SHA-256](https://github.com/godzzdeal/rtool-1cd/releases/download/1.1.0-beta/rTool.1CD_1.1.0-beta_x64-setup.exe.sha256).
+- **[Установщик Windows x64](https://github.com/godzzdeal/rtool-1cd/releases/download/1.1.1-beta/rTool.1CD_1.1.1-beta_x64-setup.exe)**.
+- [Контрольная сумма SHA-256](https://github.com/godzzdeal/rtool-1cd/releases/download/1.1.1-beta/rTool.1CD_1.1.1-beta_x64-setup.exe.sha256).
 
 ## В этом выпуске
 
-- Просмотр таблиц, полей, записей, индексов и связей.
-- Поиск по данным, настройка представления полей и HEX.
-- Изменение значений, добавление и удаление записей в поддерживаемых таблицах.
-- Сохранение общего набора правок в копию или открытую базу.
+- Исправлена задержка при применении изменений в больших базах.
+- Добавлен прогресс длительных операций и этапов сохранения.
+- Добавлен журнал операций и ошибок. Папка журнала открывается через меню «Инструменты».
 
 ## Установка
 

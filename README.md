@@ -18,6 +18,8 @@
 <p align="center">
   <a href="https://github.com/godzzdeal/rtool-1cd/releases/download/1.1.1-beta/rTool.1CD_1.1.1-beta_x64-setup.exe"><strong>Скачать установщик</strong></a>
   &nbsp; | &nbsp;
+  <a href="https://github.com/godzzdeal/rtool-1cd/releases/download/1.1.1-beta/rtool-cli-1.1.1-beta-windows-x64.zip"><strong>Скачать CLI</strong></a>
+  &nbsp; | &nbsp;
   <a href="RELEASE-NOTES.md">Описание выпуска</a>
   &nbsp; | &nbsp;
   <a href="https://github.com/godzzdeal/rtool-1cd/issues">Сообщить об ошибке</a>
@@ -37,48 +39,39 @@
 
 ## Скриншоты
 
-![Просмотр записей справочника](assets/screenshots/06-records.png)
+<table>
+  <tr>
+    <td width="50%"><a href="assets/screenshots/06-records.png"><img src="assets/screenshots/06-records.png" alt="Записи таблицы" width="440"></a><br><strong>Записи таблицы</strong></td>
+    <td width="50%"><a href="assets/screenshots/09-relations.png"><img src="assets/screenshots/09-relations.png" alt="Схема связей таблиц" width="440"></a><br><strong>Связи таблиц</strong></td>
+  </tr>
+  <tr>
+    <td><a href="assets/screenshots/04-field-display.png"><img src="assets/screenshots/04-field-display.png" alt="Настройка представления полей" width="440"></a><br><strong>Представление полей</strong></td>
+    <td><a href="assets/screenshots/07-editing.png"><img src="assets/screenshots/07-editing.png" alt="Редактирование записей" width="440"></a><br><strong>Редактирование записей</strong></td>
+  </tr>
+</table>
 
-<details>
-<summary>Обзор базы</summary>
+## CLI
 
-![Обзор базы](assets/screenshots/01-overview.png)
+**rtool-cli** — работа с базой 1С в терминале. Таблицы, поля и индексы, поиск по значениям, отбор таблиц и вкладки. Можно менять значения, добавлять и удалять записи, просматривать и отменять правки.
 
-</details>
+Сохранение доступно в новый файл или открытую базу. Запись в открытую базу требует подтверждения; резервная копия создаётся рядом с ней.
 
-<details>
-<summary>Каталог таблиц и отбор</summary>
+[Скачать CLI для Windows x64](https://github.com/godzzdeal/rtool-1cd/releases/download/1.1.1-beta/rtool-cli-1.1.1-beta-windows-x64.zip) | [SHA-256](https://github.com/godzzdeal/rtool-1cd/releases/download/1.1.1-beta/rtool-cli-1.1.1-beta-windows-x64.zip.sha256)
 
-![Каталог таблиц](assets/screenshots/02-tables.png)
+Распакуйте архив целиком и запустите `rtool-cli.exe`. Открыть базу: `/open "путь"`. Папка `icu` должна оставаться рядом с программой. Tauri и WebView2 для CLI не нужны.
 
-![Группы таблиц](assets/screenshots/03-table-groups.png)
+**F1** таблицы, **F3** отбор, **Ctrl+F** поиск, **Enter / F9** изменить поле, **F10** вид полей, **F8** правки. **Ctrl+S** сохранить копию, **Ctrl+Shift+S** сохранить в базу. Команды доступны по `/help`.
 
-</details>
-
-<details>
-<summary>Представление полей и индексы</summary>
-
-![Настройка представления полей](assets/screenshots/04-field-display.png)
-
-![Иерархия индексов](assets/screenshots/05-indexes.png)
-
-</details>
-
-<details>
-<summary>Редактирование записей</summary>
-
-![Режим редактирования](assets/screenshots/07-editing.png)
-
-![Редактор значения поля](assets/screenshots/08-cell-editor.png)
-
-</details>
-
-<details>
-<summary>Связи таблиц</summary>
-
-![ER-схема связей таблицы](assets/screenshots/09-relations.png)
-
-</details>
+<table>
+  <tr>
+    <td width="50%"><a href="assets/screenshots/cli-01-records.png"><img src="assets/screenshots/cli-01-records.png" alt="Записи таблицы в CLI" width="440"></a><br><strong>Таблицы и вкладки</strong></td>
+    <td width="50%"><a href="assets/screenshots/cli-02-filter.png"><img src="assets/screenshots/cli-02-filter.png" alt="Отбор таблиц в CLI" width="440"></a><br><strong>Отбор таблиц</strong></td>
+  </tr>
+  <tr>
+    <td><a href="assets/screenshots/cli-03-editor.png"><img src="assets/screenshots/cli-03-editor.png" alt="Редактирование значения в CLI" width="440"></a><br><strong>Редактирование</strong></td>
+    <td><a href="assets/screenshots/cli-04-changes.png"><img src="assets/screenshots/cli-04-changes.png" alt="Список изменений в CLI" width="440"></a><br><strong>История правок</strong></td>
+  </tr>
+</table>
 
 ## Установка
 
